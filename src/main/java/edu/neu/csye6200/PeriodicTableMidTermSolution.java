@@ -105,6 +105,7 @@ public class PeriodicTableMidTermSolution {
  		sb.append("\n");
  		sb.append("elementList  ");
  		sb.append("\n");
+ 		
  		elementList.forEach(e->{
  			sb.append(e);
  			sb.append("\n");
@@ -233,7 +234,7 @@ public class PeriodicTableMidTermSolution {
 
 		@Override
 		public String toString() {
-			return myStringState();
+			return myStringState()+" Element";
 		}
 	}
 
@@ -387,7 +388,7 @@ public class PeriodicTableMidTermSolution {
 
 		@Override
 		public String toString() {
-			return myStringState();
+			return myStringState()+" SolidElement";
 		}
 
 	}
@@ -506,7 +507,7 @@ public class PeriodicTableMidTermSolution {
 
 		@Override
 		public String toString() {
-			return myStringState();
+			return myStringState()+" LiquidElement";
 		}
 
 	}
@@ -624,7 +625,7 @@ public class PeriodicTableMidTermSolution {
 
 		@Override
 		public String toString() {
-			return myStringState();
+			return myStringState()+" GaseousElement";
 		}
 	}
 

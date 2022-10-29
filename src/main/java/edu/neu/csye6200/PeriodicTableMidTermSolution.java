@@ -234,7 +234,7 @@ public class PeriodicTableMidTermSolution {
 
 		@Override
 		public String toString() {
-			return myStringState()+" Element";
+			return " Element "+myStringState();
 		}
 	}
 
@@ -388,7 +388,7 @@ public class PeriodicTableMidTermSolution {
 
 		@Override
 		public String toString() {
-			return myStringState()+" SolidElement";
+			return " SolidElement "+myStringState();
 		}
 
 	}
@@ -507,7 +507,7 @@ public class PeriodicTableMidTermSolution {
 
 		@Override
 		public String toString() {
-			return myStringState()+" LiquidElement";
+			return " LiquidElement "+myStringState();
 		}
 
 	}
@@ -625,7 +625,7 @@ public class PeriodicTableMidTermSolution {
 
 		@Override
 		public String toString() {
-			return myStringState()+" GaseousElement";
+			return " GaseousElement "+myStringState();
 		}
 	}
 
